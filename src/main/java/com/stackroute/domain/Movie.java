@@ -17,7 +17,6 @@ public class Movie implements ApplicationContextAware, BeanFactoryAware,BeanName
         super();
     }
     public Movie(Actor actor) {
-
         this.actor = actor;
     }
  public void setActor(Actor actor)
